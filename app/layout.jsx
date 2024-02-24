@@ -10,9 +10,25 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
  return (
-    <html lang="en">
-      <body>{children}</body>
-      <page />
-    </html>
-  )
+		<html lang="en">
+			<body>
+				<div>
+					<div
+						id="js-preloader"
+						class="js-preloader">
+						<div class="preloader-inner">
+							<span class="dot"></span>
+							<div class="dots">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				{children}
+			</body>
+			<page />
+		</html>
+ )
 }

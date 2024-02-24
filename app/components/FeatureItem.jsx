@@ -30,7 +30,7 @@ const FeaturesSection = () => {
 								<li className="feature-item">
 									<div className="left-icon">
 										<Image
-											src="/assets/images/features-first-icon.png"
+											src="/assets/images/features-first-icon.jpg"
 											alt="First One"
 											width={100}
 											height={100}
@@ -52,7 +52,7 @@ const FeaturesSection = () => {
 								<li className="feature-item">
 									<div className="left-icon">
 										<Image
-											src="/assets/images/features-first-icon.png"
+											src="/assets/images/features-first-icon.jpg"
 											alt="second one"
 											width={100}
 											height={100}
@@ -74,7 +74,7 @@ const FeaturesSection = () => {
 								<li className="feature-item">
 									<div className="left-icon">
 										<Image
-											src="/assets/images/features-first-icon.png"
+											src="/assets/images/features-first-icon.jpg"
 											alt="third gym training"
 											width={100}
 											height={100}
@@ -107,7 +107,7 @@ const FeaturesSection = () => {
 								<li className="feature-item">
 									<div className="left-icon">
 										<Image
-											src="/assets/images/features-first-icon.png"
+											src="/assets/images/features-first-icon.jpg"
 											alt="fourth muscle"
 											width={100}
 											height={100}
@@ -139,7 +139,7 @@ const FeaturesSection = () => {
 								<li className="feature-item">
 									<div className="left-icon">
 										<Image
-											src="/assets/images/features-first-icon.png"
+											src="/assets/images/features-first-icon.jpg"
 											alt="training fifth"
 											width={100}
 											height={100}
@@ -161,7 +161,7 @@ const FeaturesSection = () => {
 								<li className="feature-item">
 									<div className="left-icon">
 										<Image
-											src="/assets/images/features-first-icon.png"
+											src="/assets/images/features-first-icon.jpg"
 											alt="gym training"
 											width={100}
 											height={100}
