@@ -22,10 +22,10 @@ const Banner = () => {
 				<div className="caption">
 					<h6>work harder, get stronger</h6>
 					<h2>
-						easy with our <em>gym</em>
+						sports coaching at your <em>doorstep</em>
 					</h2>
 					<div className="main-button scroll-to-section">
-						<a href="#features">Become a member</a>
+						<a href="#features">Join as a member</a>
 					</div>
 				</div>
 			</div>

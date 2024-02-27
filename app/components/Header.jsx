@@ -14,7 +14,7 @@ const Header = () => {
 							<a
 								href="index.html"
 								className="logo">
-								Training<em> Studio</em>
+								Khel<em>hood</em>
 							</a>
 							{/* Menu */}
 							<ul className="nav">

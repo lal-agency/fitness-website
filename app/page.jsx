@@ -7,6 +7,11 @@ import ScheduleSection from "./components/ScheduleSection"
 import TrainersSection from "./components/TrainersSection"
 import ContactForm from "./components/ContactForm"
 import Footer from "./components/Footer"
+import RegistrationForm from './components/RegistrationForm'
+
+import "../public/assets/css/bootstrap.min.css"
+import "../public/assets/css/font-awesome.css"
+import "../public/assets/css/templatemo-training-studio.css" 
 
 const Page = () => {
 	return (
@@ -18,6 +23,7 @@ const Page = () => {
 			<ClassesSection />
 			<ScheduleSection />
 			<TrainersSection />
+			<RegistrationForm/>
 			<ContactForm />
 			<Footer />
 		</div>

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+}
+
+.main-container {
+    width: 60%;
+    background-color: rgb(154, 131, 255);
+    padding-top: 10px;
+    border-radius: 20px;
+    border-width: 2px;  
+    border-color: black;
+    margin-top: 40px;
+    height: 90%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.form-container{
+    padding: 20px;
+    gap: 15px;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container input {
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 5%;
+}
+
+
+.form-container input[type="checkbox"]{
+    padding: 0px 20px;
+    width: 30px;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+}
+
+.bottom-container{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+.bottom-container p{
+    color: white;
+    font-size: 1rem;
+}
+
+.button{
+    font-weight: bold;
+    margin: auto;
+    height: 40px;
+    background-color: green;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    padding : 0px 40px;
+    border-radius: 10px;
+}
+
+#title{
+    font-size: 1.25rem;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.image-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .main{
+        padding-top: 30%;
+    }
+    .main-container {
+        width: 90%;
+    }
+    .image-container{
+        display: none;
+    }
+    #title{
+        font-size: 1rem;
+    }
+}
