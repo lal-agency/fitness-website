@@ -16,9 +16,17 @@ function page() {
   return (
 		<div className={montserrat.className}>
 			<div className="main">
-				<div className='image-container'> <Image width={400} height={400} src={register} alt="register-vector" /></div>
+				<div className="image-container">
+					{" "}
+					<Image
+						width={400}
+						height={400}
+						src={register}
+						alt="register-vector"
+					/>
+				</div>
 				<div className="main-container">
-					<div id="title">FILL IN THE FORM TO REGISTER NOW!</div>
+					<div id="title">Fill in the form to register your society now!</div>
 					<div className="">
 						<form
 							onSubmit={handleForm}
