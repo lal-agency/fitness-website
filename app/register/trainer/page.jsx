@@ -1,26 +1,24 @@
-'use client'
-import '../../../public/assets/css/register-form.css'
+"use client"
+import "../../../public/assets/css/register-form.css"
 import { Content, Montserrat } from "next/font/google"
-import Image from 'next/image'
-import register from '../../../public/assets/images/register.jpg'
-import {useState} from 'react'
-import {ToastContainer, toast} from 'react-toastify'
+import Image from "next/image"
+import register from "../../../public/assets/images/register.jpg"
+import { useState } from "react"
+import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
-import axios from 'axios'
-import {Navigate} from "react-router-dom"
+import axios from "axios"
+import { Navigate } from "react-router-dom"
 const montserrat = Montserrat({
 	weight: "700",
 	subsets: ["latin"],
 })
 
-
 function Page() {
-    const handleForm = (e) =>{
+	const handleForm = (e) => {
 		e.preventDefault()
-		setFormData({...formData, [e.target.name] : e.target.value})
-
-    }
-	const submitForm = async (e)=>{
+		setFormData({ ...formData, [e.target.name]: e.target.value })
+	}
+	const submitForm = async (e) => {
 		e.preventDefault()
 		if (checked === false) {
 			toast.warning("Please confirm the availability!")
@@ -28,7 +26,7 @@ function Page() {
 		}
 		await axios
 			.post(
-				"/api/register/society",
+				"/api/register/coach",
 				{
 					formData: formData,
 				},
@@ -43,14 +41,13 @@ function Page() {
 				toast.success("Your Response is saved successfully!")
 				setTimeout(() => {
 					window.open("/")
-				}, 3000);
+				}, 3000)
 			})
 			.catch((err) => {
 				console.log("err" + err)
 			})
-
 	}
-	const [checked, setChecked] = useState(false);
+	const [checked, setChecked] = useState(false)
 
 	const [formData, setFormData] = useState({
 		Name: "",
@@ -58,13 +55,13 @@ function Page() {
 		society_name: "",
 		sports: "",
 		city: "",
-		pincode: ""
-		});
-	const handleChecked = () =>{
+		pincode: "",
+	})
+	const handleChecked = () => {
 		setChecked(!checked)
 	}
 
-  return (
+	return (
 		<div className={montserrat.className}>
 			<div className="main">
 				<div className="image-container">
@@ -140,7 +137,10 @@ function Page() {
 					</div>
 				</div>
 			</div>
-			<ToastContainer position="top-right" hideProgressBar={true} />
+			<ToastContainer
+				position="top-right"
+				hideProgressBar={true}
+			/>
 		</div>
 	)
 }
