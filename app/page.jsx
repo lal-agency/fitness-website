@@ -24,7 +24,6 @@ const Page = () => {
 			<ScheduleSection />
 			<TrainersSection />
 			<RegistrationForm/>
-			<ContactForm />
 			<Footer />
 		</div>
 	)

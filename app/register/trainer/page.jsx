@@ -26,7 +26,7 @@ function Page() {
 		}
 		await axios
 			.post(
-				"/api/register/coach",
+				"/api/register/trainer",
 				{
 					formData: formData,
 				},
@@ -52,10 +52,10 @@ function Page() {
 	const [formData, setFormData] = useState({
 		Name: "",
 		contact_number: "",
-		society_name: "",
+		email: "",
 		sports: "",
+		age: "",
 		city: "",
-		pincode: "",
 	})
 	const handleChecked = () => {
 		setChecked(!checked)
@@ -65,7 +65,6 @@ function Page() {
 		<div className={montserrat.className}>
 			<div className="main">
 				<div className="image-container">
-					{" "}
 					<Image
 						width={400}
 						height={400}
@@ -74,7 +73,7 @@ function Page() {
 					/>
 				</div>
 				<div className="main-container">
-					<div id="title">Fill in the form to register your society now!</div>
+					<div id="title">Fill in the form to register!</div>
 					<div className="">
 						<form
 							className="form-container"
@@ -94,9 +93,9 @@ function Page() {
 								required
 							/>
 							<input
-								type="text"
-								name="society_name"
-								placeholder="society name"
+								type="email"
+								name="email"
+								placeholder="email"
 								onChange={handleForm}
 								required
 							/>
@@ -109,15 +108,15 @@ function Page() {
 							/>
 							<input
 								type="text"
-								name="city"
-								placeholder="city"
+								name="age"
+								placeholder="age"
 								onChange={handleForm}
 								required
 							/>
 							<input
 								type="text"
-								name="pincode"
-								placeholder="pincode"
+								name="city"
+								placeholder="city"
 								onChange={handleForm}
 								required
 							/>
@@ -128,8 +127,7 @@ function Page() {
 									onChange={handleChecked}
 								/>
 								<p className="text-green font-bold">
-									The required sport facility is available at the mentioned
-									address.
+									Would be able to join immediately?
 								</p>
 							</div>
 							<button className="button">Register Now</button>

@@ -9,7 +9,7 @@ const FeaturesSection = () => {
 					<div className="row">
 						<div className="col-lg-6 offset-lg-3">
 							<div className="section-heading">
-								<h2>
+								<h2 className="hover:scale-105 transition-all ease-in-out">
 									Choose <em>Program</em>
 								</h2>
 								<Image
@@ -18,10 +18,9 @@ const FeaturesSection = () => {
 									width={50}
 									height={25}
 								/>
-								<p>
-									Training Studio is free CSS template for gyms and fitness
-									centers. You are allowed to use this layout for your business
-									website.
+								<p className="hover:scale-105 transition-all ease-in-out">
+									Experience the comfort of personalized sports coaching right
+									at your doorstep with Khelhood.com.
 								</p>
 							</div>
 						</div>
@@ -36,11 +35,11 @@ const FeaturesSection = () => {
 											height={100}
 										/>
 									</div>
-									<div className="right-content">
+									<div className="right-content hover:scale-105 transition-all ease-in-out">
 										<h4>Basic Fitness</h4>
 										<p>
-											Please do not re-distribute this template ZIP file on any
-											template collection website. This is not allowed.
+											Get started with our Basic Fitness program tailored to
+											meet your fitness goals.
 										</p>
 										<a
 											href="#"
@@ -58,12 +57,13 @@ const FeaturesSection = () => {
 											height={100}
 										/>
 									</div>
-									<div className="right-content">
+									<div className="right-content hover:scale-105 transition-all ease-in-out">
 										<h4>New Gym Training</h4>
 										<p>
 											If you wish to support TemplateMo website via PayPal,
 											please feel free to contact us. We appreciate it a lot.
 										</p>
+
 										<a
 											href="#"
 											className="text-button">
@@ -80,19 +80,14 @@ const FeaturesSection = () => {
 											height={100}
 										/>
 									</div>
-									<div className="right-content">
+									<div className="right-content hover:scale-105 transition-all ease-in-out">
 										<h4>Basic Muscle Course</h4>
 										<p>
-											Credit goes to{" "}
-											<a
-												rel="nofollow"
-												href="https://www.pexels.com"
-												target="_blank">
-												Pexels website
-											</a>{" "}
-											for images and video background used in this HTML
-											template.
+											Explore our Basic Muscle Course for a comprehensive
+											understanding of muscle development and training
+											techniques.
 										</p>
+
 										<a
 											href="#"
 											className="text-button">
@@ -113,22 +108,14 @@ const FeaturesSection = () => {
 											height={100}
 										/>
 									</div>
-									<div className="right-content">
+									<div className="right-content hover:scale-105 transition-all ease-in-out">
 										<h4>Advanced Muscle Course</h4>
 										<p>
-											You may want to browse through{" "}
-											<a
-												rel="nofollow"
-												href="https://templatemo.com/tag/digital-marketing"
-												target="_parent">
-												Digital Marketing
-											</a>{" "}
-											or{" "}
-											<a href="https://templatemo.com/tag/corporate">
-												Corporate
-											</a>{" "}
-											HTML CSS templates on our website.
+											Take your training to the next level with our Advanced
+											Muscle Course designed to push your limits and maximize
+											results.
 										</p>
+
 										<a
 											href="#"
 											className="text-button">
@@ -145,12 +132,14 @@ const FeaturesSection = () => {
 											height={100}
 										/>
 									</div>
-									<div className="right-content">
+									<div className="right-content hover:scale-105 transition-all ease-in-out">
 										<h4>Yoga Training</h4>
 										<p>
-											This template is built on Bootstrap v4.3.1 framework. It
-											is easy to adapt the columns and sections.
+											Experience the balance of mind, body, and soul with our
+											Yoga Training sessions, tailored to enhance flexibility
+											and inner peace.
 										</p>
+
 										<a
 											href="#"
 											className="text-button">
@@ -167,12 +156,14 @@ const FeaturesSection = () => {
 											height={100}
 										/>
 									</div>
-									<div className="right-content">
+									<div className="right-content hover:scale-105 transition-all ease-in-out">
 										<h4>Body Building Course</h4>
 										<p>
-											Suspendisse fringilla et nisi et mattis. Curabitur sed
-											finibus nisi. Integer nibh sapien, vehicula et auctor.
+											Achieve your fitness goals and sculpt your physique with
+											our Body Building Course, designed to help you build
+											strength and muscle mass effectively.
 										</p>
+
 										<a
 											href="#"
 											className="text-button">

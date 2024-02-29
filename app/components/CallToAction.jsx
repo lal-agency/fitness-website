@@ -15,9 +15,11 @@ const CallToAction = () => {
 								Don’t <em>think</em>, begin <em>today</em>!
 							</h2>
 							<p>
-								Ut consectetur, metus sit amet aliquet placerat, enim est
-								ultricies ligula, sit amet dapibus odio augue eget libero. Morbi
-								tempus mauris a nisi luctus imperdiet.
+								Dive into the world of sports, catering to beginners,
+								intermediate and professionals of all age groups alike and get
+								trained by professional and elite coaches and we prepare the
+								players to become championship ready and start participating in
+								the tournaments.
 							</p>
 							<div className="main-button scroll-to-section">
 								<a href="#our-classes">Become a member</a>

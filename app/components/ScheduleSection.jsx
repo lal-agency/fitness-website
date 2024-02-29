@@ -12,7 +12,7 @@ const ScheduleSection = () => {
 					<div className="row">
 						<div className="col-lg-6 offset-lg-3">
 							<div className="section-heading dark-bg">
-								<h2>
+								<h2 className="hover:scale-105 transition-all ease-in-out">
 									Classes <em>Schedule</em>
 								</h2>
 								<Image
@@ -22,14 +22,15 @@ const ScheduleSection = () => {
 									height={25} // Set the height according to your needs
 								/>
 								<p>
-									Nunc urna sem, laoreet ut metus id, aliquet consequat magna.
-									Sed viverra ipsum dolor, ultricies fermentum massa consequat
-									eu.
+									Explore our class schedule and find the perfect time to join
+									our fitness classes. Whether {"you're"} an early bird or a
+									night owl, we have classes to fit your schedule and help you
+									stay on track with your fitness goals.
 								</p>
 							</div>
 						</div>
 					</div>
-					<div className="row">
+					<div className="row hover:scale-105 transition-all ease-in-out">
 						<div className="col-lg-12">
 							<div className="filters">
 								<ul className="schedule-filter">

@@ -22,9 +22,10 @@ const ClassesSection = () => {
 									height={25}
 								/>
 								<p>
-									Nunc urna sem, laoreet ut metus id, aliquet consequat magna.
-									Sed viverra ipsum dolor, ultricies fermentum massa consequat
-									eu.
+									Explore our wide range of classes tailored to meet your
+									fitness needs. From high-intensity workouts to calming yoga
+									sessions, we have something for everyone. Join us and embark
+									on a journey towards a healthier and happier you.
 								</p>
 							</div>
 						</div>
@@ -35,7 +36,7 @@ const ClassesSection = () => {
 						<div className="col-lg-4">
 							<ul>
 								<li>
-									<a href="#tabs-1">
+									<a href="#tabs-1 ">
 										<Image
 											src="/assets/images/tabs-first-icon.png"
 											alt=""
@@ -94,11 +95,8 @@ const ClassesSection = () => {
 									/>
 									<h4>First Training Class</h4>
 									<p>
-										Phasellus convallis mauris sed elementum vulputate. Donec
-										posuere leo sed dui eleifend hendrerit. Sed suscipit
-										suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum
-										sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat
-										imperdiet, molestie nunc ut, accumsan diam.
+										Join us for our First Training Class and kickstart your
+										fitness journey with expert guidance and motivation.
 									</p>
 									<div className="main-button">
 										<a href="#">View Schedule</a>

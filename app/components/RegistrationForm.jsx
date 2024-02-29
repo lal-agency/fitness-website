@@ -22,7 +22,9 @@ function RegistrationForm() {
     return (
 			<div className={montserrat.className}>
 				<div className="flex gap-10 m-10">
-					<Link href="/register/society">
+					<Link
+						href="/register/society"
+						className="hover:scale-105 transition-all ease-in-out">
 						<div style={styles}>
 							<Image
 								width={625}
@@ -32,47 +34,51 @@ function RegistrationForm() {
 							/>
 						</div>
 					</Link>
-					<div className="h-80vh w-[50%] mt-[4%] bg-[#201c1c]  rounded-2xl flex">
-						<div className=" flex-col">
-							<div className="text-white text-[1.2rem] mt-4 ml-4 ">
-								REGISTER AS A TRAINER
-							</div>
-							<div className={montserrat2.className}>
-								<div className="text-white text-[1.1rem] ml-4 ">
-									for residential sports coaching
+					<Link
+						href="/register/trainer"
+						className="hover:scale-105 transition-all ease-in-out h-80vh w-[50%] mt-[4%] bg-[#201c1c]  rounded-2xl">
+						<div className=" flex">
+							<div className=" flex-col">
+								<div className="text-white text-[1.2rem] mt-4 ml-4 ">
+									REGISTER AS A TRAINER
 								</div>
+								<div className={montserrat2.className}>
+									<div className="text-white text-[1.1rem] ml-4 ">
+										for residential sports coaching
+									</div>
 
-								<div className="ml-4 mt-2">
-									<span className="text-white text-[0.9rem] flex items-center gap-2 mb-2">
-										<FaChevronCircleRight color="white" />
-										Join the aspiring community
-									</span>
-									<span className="text-white text-[0.9rem] flex items-center gap-2 mb-2">
-										<FaChevronCircleRight color="white" />
-										Join the aspiring community
-									</span>
-									<span className="text-white text-[0.9rem] flex items-center gap-2 mb-2">
-										<FaChevronCircleRight color="white" />
-										Join the aspiring community
-									</span>
-									<span className="text-white text-[0.9rem] flex items-center gap-2 mb-2">
-										<FaChevronCircleRight color="white" />
-										Join the aspiring community
-									</span>
+									<div className="ml-4 mt-2">
+										<span className="text-white text-[0.85rem] flex items-center gap-2 mb-2">
+											<FaChevronCircleRight color="white" />
+											Join the aspiring community
+										</span>
+										<span className="text-white text-[0.85rem] flex items-center gap-2 mb-2">
+											<FaChevronCircleRight color="white" />
+											Train Aspiring Individuals
+										</span>
+										<span className="text-white text-[0.85rem] flex items-center gap-2 mb-2">
+											<FaChevronCircleRight color="white" />
+											Get to work in a vibrant community
+										</span>
+										<span className="text-white text-[0.85rem] flex items-center gap-2 mb-2">
+											<FaChevronCircleRight color="white" />
+											Best Perks
+										</span>
+									</div>
 								</div>
 							</div>
+							<divv>
+								<Image
+									className=" rounded-md pt-[15%] px-2 pl-4 w-full "
+									src={trainer}
+									height={50}
+									alt="trainer"></Image>
+								<div className="bg-white h-fit w-fit px-8 text-black ml-4 py-[4%] rounded-2xl  text-sm mt-8">
+									REGISTER TODAY
+								</div>
+							</divv>
 						</div>
-						<divv>
-							<Image
-							className=" rounded-md pt-5 px-2 pl-4 w-full "
-								src={trainer}
-								height={50}
-								alt="trainer"></Image>
-							<div className="bg-white h-fit w-fit px-7 py-[5%] rounded-2xl  text-sm mt-8">
-								REGISTER TODAY
-							</div>
-						</divv>
-					</div>
+					</Link>
 				</div>
 			</div>
 		)
