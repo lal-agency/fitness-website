@@ -21,7 +21,7 @@ const Banner = () => {
 			<div className="video-overlay header-text">
 				<div className="caption">
 					<h6>work harder, get stronger</h6>
-					<h2>
+					<h2 className="">
 						sports coaching at your <em>doorstep</em>
 					</h2>
 					<div className="main-button scroll-to-section">
