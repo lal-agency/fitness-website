@@ -44,7 +44,7 @@ const FeaturesSection = () => {
 										<a
 											href="#"
 											className="text-button">
-											Discover More
+									
 										</a>
 									</div>
 								</li>
@@ -67,7 +67,7 @@ const FeaturesSection = () => {
 										<a
 											href="#"
 											className="text-button">
-											Discover More
+									
 										</a>
 									</div>
 								</li>
@@ -91,7 +91,7 @@ const FeaturesSection = () => {
 										<a
 											href="#"
 											className="text-button">
-											Discover More
+									
 										</a>
 									</div>
 								</li>
@@ -119,7 +119,7 @@ const FeaturesSection = () => {
 										<a
 											href="#"
 											className="text-button">
-											Discover More
+									
 										</a>
 									</div>
 								</li>
@@ -143,7 +143,7 @@ const FeaturesSection = () => {
 										<a
 											href="#"
 											className="text-button">
-											Discover More
+									
 										</a>
 									</div>
 								</li>
@@ -167,7 +167,7 @@ const FeaturesSection = () => {
 										<a
 											href="#"
 											className="text-button">
-											Discover More
+									
 										</a>
 									</div>
 								</li>
