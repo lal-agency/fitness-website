@@ -622,6 +622,7 @@ banner
     left: 0;
     bottom: 7px;
     width: 100%;
+    height: 100vh;
 }
 
 .main-banner .caption {
