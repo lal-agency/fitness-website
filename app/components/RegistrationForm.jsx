@@ -1,3 +1,5 @@
+"use client"
+
 import register from "..//../public/assets/images/register-society.jpg"
 import Image from "next/image"
 import Link from "next/link"
@@ -17,7 +19,7 @@ const montserrat2 = Montserrat({
 
 function RegistrationForm() {
 	return (
-		<div className={montserrat.className}>
+		<div className={montserrat.className} id="contact-us">
 			<div className="gap-10 md:ml-4 mx-2 reg-div">
 				<Link
 					href="/register/society"

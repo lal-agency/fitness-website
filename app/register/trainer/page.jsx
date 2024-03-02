@@ -7,13 +7,16 @@ import { useState } from "react"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import axios from "axios"
-import { Navigate } from "react-router-dom"
+import { useRouter } from "next/navigation"
+import { IoIosArrowBack } from "react-icons/io"
+
 const montserrat = Montserrat({
 	weight: "700",
 	subsets: ["latin"],
 })
 
 function Page() {
+	const router = useRouter()
 	const handleForm = (e) => {
 		e.preventDefault()
 		setFormData({ ...formData, [e.target.name]: e.target.value })
@@ -39,9 +42,10 @@ function Page() {
 			.then((res) => {
 				console.log(res)
 				toast.success("Your Response is saved successfully!")
+				console.log("hi")
 				setTimeout(() => {
-					window.open("/")
-				}, 3000)
+					router.push("/")
+				}, 2000)
 			})
 			.catch((err) => {
 				console.log("err" + err)
@@ -60,10 +64,16 @@ function Page() {
 	const handleChecked = () => {
 		setChecked(!checked)
 	}
-
+	const handleRedirect = () => {
+		router.push("/")
+	}
 	return (
 		<div className={montserrat.className}>
 			<div className="main">
+				<div className="btn" onClick={handleRedirect}>
+					<IoIosArrowBack />
+					MOVE BACK
+				</div>
 				<div className="image-container">
 					<Image
 						width={400}
@@ -138,6 +148,7 @@ function Page() {
 			<ToastContainer
 				position="top-right"
 				hideProgressBar={true}
+				autoClose={2000}
 			/>
 		</div>
 	)

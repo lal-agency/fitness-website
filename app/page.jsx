@@ -8,7 +8,7 @@ import TrainersSection from "./components/TrainersSection"
 import ContactForm from "./components/ContactForm"
 import Footer from "./components/Footer"
 import RegistrationForm from './components/RegistrationForm'
-
+import Script from "next/script"
 import "../public/assets/css/bootstrap.min.css"
 import "../public/assets/css/font-awesome.css"
 import "../public/assets/css/templatemo-training-studio.css" 
@@ -18,12 +18,12 @@ const Page = () => {
 		<div>
 			<Header />
 			<Banner />
-			<FeatureItem/>
+			<FeatureItem />
 			<CallToAction />
 			<ClassesSection />
 			<ScheduleSection />
 			<TrainersSection />
-			<RegistrationForm/>
+			<RegistrationForm />
 			<Footer />
 		</div>
 	)

@@ -1,6 +1,6 @@
 import page from './page'
 import "../public/assets/css/global.css"
-
+import Script from "next/script"
 export const metadata = {
   title: 'fitness_app',
   description: 'This is a landing page of a fitness organization',
