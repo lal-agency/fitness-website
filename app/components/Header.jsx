@@ -45,7 +45,7 @@ const Header = () => {
 									<a href="#schedule">Schedules</a>
 								</li>
 								<li className="scroll-to-section">
-									<a href="#contact-us">Register</a>
+									<a href="#contact-us">Contact Us</a>
 								</li>
 							</ul>
 							{/* Mobile Menu Trigger */}

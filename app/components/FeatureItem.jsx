@@ -161,7 +161,7 @@ const FeaturesSection = () => {
 										<p>
 											Achieve your fitness goals and sculpt your physique with
 											our Body Building Course, designed to help you build
-											strength and muscle mass effectively.
+											strength and muscles effectively.
 										</p>
 
 										<a

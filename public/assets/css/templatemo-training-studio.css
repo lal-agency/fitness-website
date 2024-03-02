@@ -147,9 +147,10 @@ body {
 
 .section-heading {
   text-align: center;
-  margin-top: 140px;
+  margin-top: 70px;
   margin-bottom: 80px;
 }
+
 
 .section-heading h2 {
   font-size: 28px;
@@ -667,7 +668,7 @@ features
 */
 
 #features {
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 .feature-item {
@@ -746,7 +747,7 @@ Our Classes
 */
 
 #our-classes {
-  margin-bottom: 140px;
+  margin-bottom: 30px;
 }
 
 #tabs ul {
@@ -1103,6 +1104,21 @@ footer p a:hover {
   color: #54E346;
 }
 
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  background-color: rgba(54, 222, 68, 0.934);
+  color: #fff;
+  text-align: center;
+}
 
 
 /* 
@@ -1273,10 +1289,8 @@ responsive
 
 }
 
-.reg-form {
-  padding-top: 50px;
-}
 
   .reg-div{
     display: flex;
+    align-items: center;
   }

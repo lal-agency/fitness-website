@@ -19,11 +19,12 @@ const Page = () => {
 			<Header />
 			<Banner />
 			<FeatureItem />
+			<RegistrationForm />
 			<CallToAction />
 			<ClassesSection />
-			<ScheduleSection />
+			{/* <ScheduleSection /> */}
 			<TrainersSection />
-			<RegistrationForm />
+			<ContactForm/>
 			<Footer />
 		</div>
 	)

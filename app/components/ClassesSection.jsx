@@ -79,9 +79,9 @@ const ClassesSection = () => {
 										Fourth Training Class
 									</a>
 								</li>
-								<div className="main-rounded-button">
+								{/* <div className="main-rounded-button">
 									<a href="#">View All Schedules</a>
-								</div>
+								</div> */}
 							</ul>
 						</div>
 						<div className="col-lg-8">
@@ -98,9 +98,9 @@ const ClassesSection = () => {
 										Join us for our First Training Class and kickstart your
 										fitness journey with expert guidance and motivation.
 									</p>
-									<div className="main-button">
+									{/* <div className="main-button">
 										<a href="#">View Schedule</a>
-									</div>
+									</div> */}
 								</article>
 								{/* Articles for other classes go here */}
 							</section>
