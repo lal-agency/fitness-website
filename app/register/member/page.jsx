@@ -29,7 +29,7 @@ function Page() {
 		}
 		await axios
 			.post(
-				"/api/register/trainer",
+				"/api/register/member",
 				{
 					formData: formData,
 				},
@@ -42,7 +42,6 @@ function Page() {
 			.then((res) => {
 				console.log(res)
 				toast.success("Your Response is saved successfully!")
-				console.log("hi")
 				setTimeout(() => {
 					router.push("/")
 				}, 2000)
@@ -56,10 +55,10 @@ function Page() {
 	const [formData, setFormData] = useState({
 		Name: "",
 		contact_number: "",
-		email: "",
+		society_name: "",
 		sports: "",
-		age: "",
 		city: "",
+		pincode: "",
 	})
 	const handleChecked = () => {
 		setChecked(!checked)
@@ -70,8 +69,9 @@ function Page() {
 	return (
 		<div className={montserrat.className}>
 			<div className="main">
-				<FormBtn/>
+                <FormBtn />
 				<div className="image-container">
+					{" "}
 					<Image
 						width={400}
 						height={400}
@@ -80,7 +80,7 @@ function Page() {
 					/>
 				</div>
 				<div className="main-container">
-					<div id="title">Fill in the form to register!</div>
+					<div id="title">Fill in the form to register your society now!</div>
 					<div className="">
 						<form
 							className="form-container"
@@ -100,9 +100,9 @@ function Page() {
 								required
 							/>
 							<input
-								type="email"
-								name="email"
-								placeholder="email"
+								type="text"
+								name="society_name"
+								placeholder="society name"
 								onChange={handleForm}
 								required
 							/>
@@ -115,15 +115,15 @@ function Page() {
 							/>
 							<input
 								type="text"
-								name="age"
-								placeholder="age"
+								name="city"
+								placeholder="city"
 								onChange={handleForm}
 								required
 							/>
 							<input
 								type="text"
-								name="city"
-								placeholder="city"
+								name="pincode"
+								placeholder="pincode"
 								onChange={handleForm}
 								required
 							/>
@@ -134,7 +134,8 @@ function Page() {
 									onChange={handleChecked}
 								/>
 								<p className="text-green font-bold">
-									Would be able to join immediately?
+									The required sport facility is available at the mentioned
+									address.
 								</p>
 							</div>
 							<button className="button">Register Now</button>

@@ -1,6 +1,6 @@
 'use client'
 import '../../../public/assets/css/register-form.css'
-import { Content, Montserrat } from "next/font/google"
+import { Montserrat } from "next/font/google"
 import Image from 'next/image'
 import register from '../../../public/assets/images/register.jpg'
 import {useState} from 'react'
@@ -8,7 +8,7 @@ import {ToastContainer, toast} from 'react-toastify'
 import "react-toastify/dist/ReactToastify.css"
 import axios from 'axios'
 import { useRouter } from "next/navigation"
-import { IoIosArrowBack } from "react-icons/io"
+import FormBtn from '../../components/FormBtn'
 
 const montserrat = Montserrat({
 	weight: "700",
@@ -72,12 +72,7 @@ function Page() {
   return (
 		<div className={montserrat.className}>
 			<div className="main">
-				<div
-					className="btn"
-					onClick={handleRedirect}>
-					<IoIosArrowBack />
-					MOVE BACK
-				</div>
+				<FormBtn/>
 				<div className="image-container">
 					{" "}
 					<Image
