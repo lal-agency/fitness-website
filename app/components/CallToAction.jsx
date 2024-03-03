@@ -22,7 +22,7 @@ const CallToAction = () => {
 								the tournaments.
 							</p>
 							<div className="main-button scroll-to-section">
-								<a href="#our-classes">Become a member</a>
+								<a href="/register/member">Become a member</a>
 							</div>
 						</div>
 					</div>

@@ -11,7 +11,7 @@ const montserrat2 = Montserrat({
 const Footer = () => {
 	return (
 		<footer className={montserrat2.className}>
-			<div className="container flex justify-between my-4">
+			<div className="container md:flex  md:justify-between md:items-center my-4 px-4 flex-col ">
 				<div className="row text-lg">
 					<div className="col-lg-12 justify-between flex">
 						<p className="text-sm">
@@ -26,8 +26,8 @@ const Footer = () => {
 						</p>
 					</div>
 				</div>
-				<div className="row">
-					<ul className="social-icons flex  gap-10 scale-150">
+				<div className="row md:pr-10 justify-center pt-4 " >
+					<ul className="social-icons flex  gap-10 scale-95 md:scale-150 ">
 						<p className="w-fit px-2 bg-blue-500 rounded-md text-white">
 							Follow us on
 						</p>

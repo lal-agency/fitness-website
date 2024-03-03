@@ -23,10 +23,6 @@ function Page() {
 	}
 	const submitForm = async (e) => {
 		e.preventDefault()
-		if (checked === false) {
-			toast.warning("Please confirm the availability!")
-			return null
-		}
 		await axios
 			.post(
 				"/api/register/member",
@@ -41,7 +37,7 @@ function Page() {
 			)
 			.then((res) => {
 				console.log(res)
-				toast.success("Your Response is saved successfully!")
+				toast.success("Application is Submitted Successfully!")
 				setTimeout(() => {
 					router.push("/")
 				}, 2000)
@@ -50,7 +46,6 @@ function Page() {
 				console.log("err" + err)
 			})
 	}
-	const [checked, setChecked] = useState(false)
 
 	const [formData, setFormData] = useState({
 		Name: "",
@@ -60,12 +55,8 @@ function Page() {
 		city: "",
 		pincode: "",
 	})
-	const handleChecked = () => {
-		setChecked(!checked)
-	}
-	const handleRedirect = () => {
-		router.push("/")
-	}
+
+
 	return (
 		<div className={montserrat.className}>
 			<div className="main">
@@ -80,7 +71,7 @@ function Page() {
 					/>
 				</div>
 				<div className="main-container">
-					<div id="title">Fill in the form to register your society now!</div>
+					<div className="text-[1.5rem] text-center pt-4 text-white">Join KhelHood!</div>
 					<div className="">
 						<form
 							className="form-container"
@@ -127,18 +118,7 @@ function Page() {
 								onChange={handleForm}
 								required
 							/>
-							<div className="bottom-container">
-								<input
-									type="checkbox"
-									checked={checked}
-									onChange={handleChecked}
-								/>
-								<p className="text-green font-bold">
-									The required sport facility is available at the mentioned
-									address.
-								</p>
-							</div>
-							<button className="button">Register Now</button>
+							<button className="button">Apply Now</button>
 						</form>
 					</div>
 				</div>

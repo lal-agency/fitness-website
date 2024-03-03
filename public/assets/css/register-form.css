@@ -85,6 +85,11 @@
     border-radius: 10px;
 }
 
+.button:hover{
+    background-color: white;
+    color: rgba(54, 222, 68, 0.934);
+}
+
 #title{
     text-align: center;
     font-size: 1.25rem;
