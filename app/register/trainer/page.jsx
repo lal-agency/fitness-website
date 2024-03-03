@@ -42,7 +42,7 @@ function Page() {
 			.then((res) => {
 				console.log(res)
 				toast.success("Your Response is saved successfully!")
-				console.log("hi")
+				
 				setTimeout(() => {
 					router.push("/")
 				}, 2000)

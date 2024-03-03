@@ -43,24 +43,24 @@ function Page() {
 				}, 2000)
 			})
 			.catch((err) => {
-				console.log("err" + err)
+				console.log("err" + err).log()
 			})
 	}
 
 	const [formData, setFormData] = useState({
 		Name: "",
+		Email: "",
 		contact_number: "",
-		society_name: "",
+		age: "",
 		sports: "",
 		city: "",
-		pincode: "",
 	})
 
 
 	return (
 		<div className={montserrat.className}>
 			<div className="main">
-                <FormBtn />
+				<FormBtn />
 				<div className="image-container">
 					{" "}
 					<Image
@@ -71,7 +71,9 @@ function Page() {
 					/>
 				</div>
 				<div className="main-container">
-					<div className="text-[1.5rem] text-center pt-4 text-white">Join KhelHood!</div>
+					<div className="text-[1.5rem] text-center pt-4 text-white">
+						Join KhelHood!
+					</div>
 					<div className="">
 						<form
 							className="form-container"
@@ -84,6 +86,13 @@ function Page() {
 								required
 							/>
 							<input
+								type="email"
+								name="Email"
+								placeholder="email"
+								onChange={handleForm}
+								required
+							/>
+							<input
 								type="text"
 								name="contact_number"
 								placeholder="contact number"
@@ -92,11 +101,12 @@ function Page() {
 							/>
 							<input
 								type="text"
-								name="society_name"
-								placeholder="society name"
+								name="age"
+								placeholder="age"
 								onChange={handleForm}
 								required
 							/>
+
 							<input
 								type="text"
 								name="sports"
@@ -108,13 +118,6 @@ function Page() {
 								type="text"
 								name="city"
 								placeholder="city"
-								onChange={handleForm}
-								required
-							/>
-							<input
-								type="text"
-								name="pincode"
-								placeholder="pincode"
 								onChange={handleForm}
 								required
 							/>

@@ -8,18 +8,18 @@ export async function POST(req, res) {
 			token: process.env.NEXT_PUBLIC_AITABLE_API_KEY,
 		})
 		const datasheet = apitable.datasheet(
-			process.env.NEXT_PUBLIC_DATASHEET_SOCIETY
+			process.env.NEXT_PUBLIC_DATASHEET_MEMBER
 		)
 		try {
 			const response = await datasheet.records.create([
 				{
 					fields: {
 						Name: formData.Name,
+                        Email : formData.email,
 						"Contact Number": formData.contact_number,
-						"Society Name": formData.society_name,
+                        Age : formData.age,
 						Sports: formData.sports,
 						City: formData.city,
-						Pincode: formData.pincode,
 					},
 				},
 			])

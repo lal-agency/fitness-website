@@ -23,7 +23,7 @@ export async function POST(req, res) {
 					},
 				},
 			])
-			console.log("hi")
+			
 			return NextResponse.json({ response: response.data.records })
 		} catch (err) {
 			console.error("Error:", err)
