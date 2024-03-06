@@ -1011,7 +1011,7 @@ contact
 }
 
 #contact-us .contact-form {
-  padding: 80px;
+  padding: 40px;
   background-image: url(../images/contact-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -1027,7 +1027,7 @@ contact
 .contact-form input,
 .contact-form textarea {
   color: #7a7a7a;
-  font-size: 13px;
+  font-size: 16px;
   border: 1px solid #ddd;
   background-color: #fff;
   width: 100%;
@@ -1042,7 +1042,7 @@ contact
 }
 
 .contact-form textarea {
-  height: 150px;
+  height: 90px;
   resize: none;
 }
 

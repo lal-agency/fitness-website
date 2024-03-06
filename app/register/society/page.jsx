@@ -25,10 +25,6 @@ function Page() {
     }
 	const submitForm = async (e)=>{
 		e.preventDefault()
-		if (checked === false) {
-			toast.warning("Please confirm the availability!")
-			return null
-		}
 		await axios
 			.post(
 				"/api/register/society",
@@ -53,7 +49,6 @@ function Page() {
 			})
 
 	}
-	const [checked, setChecked] = useState(false);
 
 	const [formData, setFormData] = useState({
 		Name: "",
@@ -63,12 +58,7 @@ function Page() {
 		city: "",
 		pincode: ""
 		});
-	const handleChecked = () =>{
-		setChecked(!checked)
-	}
-	const handleRedirect = () => {
-		router.push("/")
-	}
+
   return (
 		<div className={montserrat.className}>
 			<div className="main">
@@ -130,17 +120,6 @@ function Page() {
 								onChange={handleForm}
 								required
 							/>
-							<div className="bottom-container">
-								<input
-									type="checkbox"
-									checked={checked}
-									onChange={handleChecked}
-								/>
-								<p className="text-green font-bold">
-									The required sport facility is available at the mentioned
-									address.
-								</p>
-							</div>
 							<button className="button">Register Now</button>
 						</form>
 					</div>

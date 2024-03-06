@@ -9,6 +9,9 @@ import "react-toastify/dist/ReactToastify.css"
 import axios from "axios"
 import { useRouter } from "next/navigation"
 import FormBtn from "../../components/FormBtn"
+import SwitchForm from  '../../components/SwitchForm'
+import FormGroup from "@mui/material/FormGroup"
+import FormControlLabel from "@mui/material/FormControlLabel"
 
 const montserrat = Montserrat({
 	weight: "700",
@@ -23,6 +26,11 @@ function Page() {
 	}
 	const submitForm = async (e) => {
 		e.preventDefault()
+		if (checked === true) {
+			formData.Demo = "Yes"
+		}else{
+			formData.Demo = "No"
+		}
 		await axios
 			.post(
 				"/api/register/member",
@@ -55,7 +63,11 @@ function Page() {
 		sports: "",
 		city: "",
 	})
-
+	const [checked, setChecked] = useState(false)
+	const handleChecked = () => {
+		setChecked(!checked)
+	}
+		console.log(checked)
 
 	return (
 		<div className={montserrat.className}>
@@ -121,6 +133,26 @@ function Page() {
 								onChange={handleForm}
 								required
 							/>
+							<div className="bottom-container">
+								<p className="text-green font-bold">
+									Want to book a free trial session?
+								</p>
+								<FormGroup>
+									<FormControlLabel
+										className="text-white"
+										control={
+											<SwitchForm
+
+												sx={{ m: 1 }}
+												onChange={handleChecked}
+												checked={checked}
+											/>
+										}
+										label="Yes/No"
+										
+									/>
+								</FormGroup>
+							</div>
 							<button className="button">Apply Now</button>
 						</form>
 					</div>

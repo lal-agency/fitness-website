@@ -63,9 +63,12 @@
 }
 
 .bottom-container{
+    font-weight: bold;
     justify-content: center;
     display: flex;
-    gap: 10px;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .bottom-container p{
@@ -109,9 +112,10 @@
 
 @media only screen and (max-width: 480px) {
     .main{
-        padding-top: 30%;
+        padding-top: 15%;
     }
     .main-container {
+        font-size: 1rem;
         width: 90%;
     }
     .image-container{

@@ -20,6 +20,7 @@ export async function POST(req, res) {
                         Age : formData.age,
 						Sports: formData.sports,
 						City: formData.city,
+						Demo: formData.Demo,
 					},
 				},
 			])
