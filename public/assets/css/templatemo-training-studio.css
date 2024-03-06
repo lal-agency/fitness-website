@@ -153,6 +153,7 @@ body {
 
 
 .section-heading h2 {
+  padding: 10px 10px;
   font-size: 28px;
   font-weight: 800;
   color: #00377a;
@@ -682,9 +683,13 @@ features
 }
 
 .feature-item .right-content {
-  display: inline;
-}
+  display: inline}
 
+  
+.feature-item .right-content p{
+  display: flex;
+}
+  
 .feature-item .right-content h4 {
   margin-top: 0px;
   margin-bottom:  7px;
@@ -1295,12 +1300,4 @@ responsive
     align-items: center;
   }
 
-  .section-heading h3 {
-  font-size: 20px;
-  font-weight: 800;
-  color: #00377a;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+

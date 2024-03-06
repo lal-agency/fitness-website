@@ -60,14 +60,13 @@ const FeaturesSection = () => {
 									<div className="right-content hover:scale-105 transition-all ease-in-out">
 										<h4>New Gym Training</h4>
 										<p>
-											If you wish to support TemplateMo website via PayPal,
-											please feel free to contact us. We appreciate it a lot.
+											Providing a lot of training in our new gym will greatly
+											help.
 										</p>
 
 										<a
 											href="#"
 											className="text-button">
-									
 										</a>
 									</div>
 								</li>
@@ -87,7 +86,6 @@ const FeaturesSection = () => {
 											understanding of muscle development and training
 											techniques.
 										</p>
-
 										<a
 											href="#"
 											className="text-button">
