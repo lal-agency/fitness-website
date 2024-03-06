@@ -1294,3 +1294,13 @@ responsive
     display: flex;
     align-items: center;
   }
+
+  .section-heading h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #00377a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

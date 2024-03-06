@@ -21,7 +21,7 @@ function RegistrationForm() {
 	return (
 		<section className="mb-20">
 			<div className="section-heading">
-				<h2>
+				<h2 className="text-[10px]">
 					Ongoing <em>Registrations</em>
 				</h2>
 			</div>
