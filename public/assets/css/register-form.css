@@ -55,8 +55,8 @@
 
 
 .form-container input[type="checkbox"]{
-    padding: 0px 20px;
-    width: 30px;
+    padding: 0px 10px;
+    width: 1.5rem;
     color: black;
     border-width: 2px;
     border-color: black;
@@ -64,7 +64,7 @@
 
 .bottom-container{
     font-weight: bold;
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     gap: 0.9rem;
     flex-wrap: wrap;
@@ -72,6 +72,7 @@
 }
 
 .bottom-container p{
+    width: 80%;
     color: white;
     font-size: 1rem;
 }

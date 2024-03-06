@@ -42,6 +42,9 @@ const Header = () => {
 									<a href="#our-classes">Classes</a>
 								</li>
 								<li className="scroll-to-section">
+									<a href="#our-trainers">Trainers</a>
+								</li>
+								<li className="scroll-to-section">
 									<a href="#contact-us">Contact Us</a>
 								</li>
 							</ul>

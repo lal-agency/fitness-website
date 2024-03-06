@@ -7,7 +7,7 @@ const TrainersSection = () => {
     return (
 			<section
 				className="section"
-				id="trainers">
+				id="our-trainers">
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-6 offset-lg-3">
