@@ -1301,3 +1301,7 @@ responsive
   }
 
 
+#trainer-icons{
+  display: flex;
+  gap: 2rem;
+}
