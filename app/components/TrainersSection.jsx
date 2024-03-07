@@ -29,7 +29,7 @@ const TrainersSection = () => {
 							</div>
 						</div>
 						{/* Trainer 1 */}
-						<div className=" md:px-0 px-10 hover:scale-105 transition-all ease-in-out">
+						<div className="col-lg-4 py-4 hover:scale-105 transition-all ease-in-out">
 							<div className="trainer-item">
 								<div className="image-thumb">
 									<Image
@@ -76,7 +76,7 @@ const TrainersSection = () => {
 							</div>
 						</div>
 						{/* Trainer 2 */}
-						<div className=" md:px-0 px-10 hover:scale-105 transition-all ease-in-out">
+						<div className="py-4 col-lg-4 hover:scale-105 transition-all ease-in-out">
 							<div className="trainer-item">
 								<div className="image-thumb">
 									<Image
@@ -124,7 +124,7 @@ const TrainersSection = () => {
 							</div>
 						</div>
 						{/* Trainer 3 */}
-						<div className=" md:px-0 px-10 hover:scale-105 transition-all ease-in-out">
+						<div className="col-lg-4 py-4 hover:scale-105 transition-all ease-in-out">
 							<div className="trainer-item">
 								<div className="image-thumb">
 									<Image
