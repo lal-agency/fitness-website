@@ -29,7 +29,7 @@ const TrainersSection = () => {
 							</div>
 						</div>
 						{/* Trainer 1 */}
-						<div className="col-lg-4 py-4 hover:scale-105 transition-all ease-in-out">
+						<div className="py-2 col-lg-4 hover:scale-105 transition-all ease-in-out">
 							<div className="trainer-item">
 								<div className="image-thumb">
 									<Image
@@ -39,16 +39,19 @@ const TrainersSection = () => {
 										height={200} // Set appropriate height for the image
 									/>
 								</div>
-								<div className="down-content hover:scale-105 transition-all ease-in-out">
-									<span>Strength Trainer</span>
-									<h4>Bret D. Bowers</h4>
+								<div className="down-content">
+									<span className="text-blue-500 m-10 pt-32">
+										National Player & Coach
+									</span>
+									<h5>Pawan Das</h5>
 									<p>
-										With over a decade of experience in strength training, Bret
-										D. Bowers is dedicated to helping individuals maximize their
-										strength potential and achieve their fitness goals.
+										A renowned national player and coach in Table Tennis, brings
+										a wealth of experience and expertise to his training
+										sessions, fostering excellence in both technique and
+										strategy
 									</p>
 
-									<ul
+									{/* <ul
 										className="social-icons"
 										id="trainer-icons">
 										<li>
@@ -71,12 +74,12 @@ const TrainersSection = () => {
 												<i className="fa fa-behance"></i>
 											</a>
 										</li>
-									</ul>
+									</ul> */}
 								</div>
 							</div>
 						</div>
 						{/* Trainer 2 */}
-						<div className="py-4 col-lg-4 hover:scale-105 transition-all ease-in-out">
+						<div className="py-2 col-lg-4 hover:scale-105 transition-all ease-in-out">
 							<div className="trainer-item">
 								<div className="image-thumb">
 									<Image
@@ -86,17 +89,18 @@ const TrainersSection = () => {
 										height={200} // Set appropriate height for the image
 									/>
 								</div>
-								<div className="down-content hover:scale-105 transition-all ease-in-out">
-									<span>Muscle Trainer</span>
-									<h4>Hector T. Daigl</h4>
+								<div className="down-content">
+									<span className="text-blue-500 m-10">
+										Table Tennis Trainer
+									</span>
+									<h5>Sai Prashant</h5>
 									<p>
-										Hector T. Daigl is a seasoned fitness instructor with a
-										passion for helping others achieve their health and wellness
-										goals through personalized training programs and
-										motivational support.
+										A distinguished Table Tennis trainer, specializes in honing
+										the skills of aspiring players, instilling a winning
+										mentality and a passion for the sport
 									</p>
 
-									<ul
+									{/* <ul
 										className="social-icons"
 										id="trainer-icons">
 										<li>
@@ -119,12 +123,12 @@ const TrainersSection = () => {
 												<i className="fa fa-behance"></i>
 											</a>
 										</li>
-									</ul>
+									</ul> */}
 								</div>
 							</div>
 						</div>
 						{/* Trainer 3 */}
-						<div className="col-lg-4 py-4 hover:scale-105 transition-all ease-in-out">
+						<div className="py-2 col-lg-4 hover:scale-105 transition-all ease-in-out">
 							<div className="trainer-item">
 								<div className="image-thumb">
 									<Image
@@ -134,17 +138,19 @@ const TrainersSection = () => {
 										height={200} // Set appropriate height for the image
 									/>
 								</div>
-								<div className="down-content hover:scale-105 transition-all ease-in-out">
-									<span>Power Trainer</span>
-									<h4>Paul D. Newman</h4>
+								<div className="down-content">
+									<span className="text-blue-500 m-10">
+										Table Tennis Trainer
+									</span>
+									<h5>Tarun Verma</h5>
 									<p>
-										Paul D. Newman is a certified personal trainer with a focus
-										on holistic wellness and functional fitness. With his
-										expertise and guidance, you can embark on a journey towards
-										a healthier and happier lifestyle.
+										An accomplished coach in Table Tennis, utilizes innovative
+										training methods to nurture the talents of his students,
+										guiding them towards achieving their full potential on the
+										table.
 									</p>
 
-									<ul
+									{/* <ul
 										className="social-icons"
 										id="trainer-icons">
 										<li>
@@ -167,7 +173,7 @@ const TrainersSection = () => {
 												<i className="fa fa-behance"></i>
 											</a>
 										</li>
-									</ul>
+									</ul> */}
 								</div>
 							</div>
 						</div>

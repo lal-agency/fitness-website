@@ -63,12 +63,13 @@ const ContactForm = () => {
 					<div className="col-lg-6 col-md-6 col-xs-12">
 						<div id="map">
 							<iframe
-								src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7975310219426!2d77.71484803723521!3d12.984798014646106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11920f3f2bd5%3A0xe7d2658528af63af!2sGopalan%20International%20School%20Swimming%20Pool!5e0!3m2!1sen!2sin!4v1709874964082!5m2!1sen!2sin"
 								width="100%"
 								height="650px"
-								frameBorder="0"
 								style={{ border: "0" }}
-								allowFullScreen></iframe>
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
 					</div>
 					<div className="col-lg-6 col-md-6 col-xs-12">
@@ -79,7 +80,7 @@ const ContactForm = () => {
 							<p className="text-center text-green-500 font-mono text-xl mb-10">
 								Get Trained By the best trainers!
 							</p>
-							<div id="contact" >
+							<div id="contact">
 								<div className="row">
 									<div className="col-md-6 col-sm-12">
 										<fieldset>

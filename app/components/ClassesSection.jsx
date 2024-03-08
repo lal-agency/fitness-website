@@ -22,10 +22,13 @@ const ClassesSection = () => {
 									height={25}
 								/>
 								<p>
-									Explore our wide range of classes tailored to meet your
-									fitness needs. From high-intensity workouts to calming yoga
-									sessions, we have something for everyone. Join us and embark
-									on a journey towards a healthier and happier you.
+									Unlock your full potential with personalized training
+									programs, expert guidance, tournament preparation and
+									performance tracking. Whether {"you're"} an aspiring athlete or a
+									seasoned pro, Join our community of motivated individuals,
+									learn from top coaches, and achieve greatness in your sport.
+									Ready to level up? Get in touch with us now and unleash your
+									athletic prowess!
 								</p>
 							</div>
 						</div>

@@ -234,6 +234,12 @@ header
   color: #54E346!important;
 }
 
+@media (max-width: 450px){
+  .header-area{
+    position: fixed !important;
+  }
+}
+
 .header-area {
   position: absolute;
   top: 0px;
@@ -1009,6 +1015,12 @@ contact
 
 #contact-us {
   margin-top: 140px;
+}
+
+@media (max-width: 450px) {
+  #contact-us {
+  margin-top: 50px;
+}
 }
 
 #contact-us .container-fluid .col-lg-6 {

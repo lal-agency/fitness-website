@@ -4,6 +4,7 @@ import FeatureItem from "./components/FeatureItem"
 import CallToAction from "./components/CallToAction"
 import ClassesSection from "./components/ClassesSection"
 import ScheduleSection from "./components/ScheduleSection"
+import Gallery from "./components/Gallery"
 import TrainersSection from "./components/TrainersSection"
 import ContactForm from "./components/ContactForm"
 import Footer from "./components/Footer"
@@ -23,6 +24,7 @@ const Page = () => {
 			<CallToAction />
 			<ClassesSection />
 			{/* <ScheduleSection /> */}
+			<Gallery/>
 			<TrainersSection />
 			<ContactForm/>
 			<Footer />
