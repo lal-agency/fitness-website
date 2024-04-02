@@ -14,7 +14,7 @@ const Banner = () => {
 				loop
 				id="bg-video">
 				<source
-					src="/assets/images/gym-video.mp4"
+					src="/assets/videos/Video1.mp4"
 					type="video/mp4"
 				/>
 			</video>

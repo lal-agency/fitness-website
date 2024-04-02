@@ -10,7 +10,7 @@ Where we trying to build a  playfully vibrant community focused on sports and re
 
 export default function RootLayout({ children }) {
  return (
-		<html lang="en">
+		<html lang="en">	
 			<head>
 				<link
 					rel="apple-touch-icon"

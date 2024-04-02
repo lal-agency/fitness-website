@@ -22,7 +22,7 @@ const Page = () => {
 			<FeatureItem />
 			<RegistrationForm />
 			<CallToAction />
-			<ClassesSection />
+			{/* <ClassesSection /> */}
 			{/* <ScheduleSection /> */}
 			<Gallery/>
 			<TrainersSection />

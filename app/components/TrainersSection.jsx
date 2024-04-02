@@ -32,19 +32,21 @@ const TrainersSection = () => {
 						<div className="py-2 col-lg-4 hover:scale-105 transition-all ease-in-out">
 							<div className="trainer-item">
 								<div className="image-thumb">
-									<Image
-										src="/assets/images/first-trainer.jpg"
-										alt=""
-										width={250} // Set appropriate width for the image
-										height={200} // Set appropriate height for the image
-									/>
+									<div className="relative w-[100%] md:h-[250px] h-[150px]">
+										<Image
+											className="rounded-md object-cover"
+											layout="fill"
+											src="/assets/images/trainer1.jpeg"
+											alt=""
+										/>
+									</div>
 								</div>
 								<div className="down-content">
 									<span className="text-blue-500 m-10 pt-32">
 										National Player & Coach
 									</span>
-									<h5>Pawan Das</h5>
-									<p>
+									<h4>Pawan Das</h4>
+									<p className="py-2 text-lg">
 										A renowned national player and coach in Table Tennis, brings
 										a wealth of experience and expertise to his training
 										sessions, fostering excellence in both technique and
@@ -82,19 +84,21 @@ const TrainersSection = () => {
 						<div className="py-2 col-lg-4 hover:scale-105 transition-all ease-in-out">
 							<div className="trainer-item">
 								<div className="image-thumb">
-									<Image
-										src="/assets/images/second-trainer.jpg"
-										alt=""
-										width={250} // Set appropriate width for the image
-										height={200} // Set appropriate height for the image
-									/>
+									<div className="relative w-[100%] md:h-[250px] h-[150px]">
+										<Image
+											className="rounded-md object-cover"
+											layout="fill"
+											src="/assets/images/trainer2.jpeg"
+											alt=""
+										/>
+									</div>
 								</div>
 								<div className="down-content">
 									<span className="text-blue-500 m-10">
 										Table Tennis Trainer
 									</span>
 									<h5>Sai Prashant</h5>
-									<p>
+									<p className="py-2 text-lg">
 										A distinguished Table Tennis trainer, specializes in honing
 										the skills of aspiring players, instilling a winning
 										mentality and a passion for the sport
@@ -131,19 +135,21 @@ const TrainersSection = () => {
 						<div className="py-2 col-lg-4 hover:scale-105 transition-all ease-in-out">
 							<div className="trainer-item">
 								<div className="image-thumb">
-									<Image
-										src="/assets/images/third-trainer.jpg"
-										alt=""
-										width={250} // Set appropriate width for the image
-										height={200} // Set appropriate height for the image
-									/>
+									<div className="relative w-[100%] md:h-[250px] h-[150px]">
+										<Image
+											className="rounded-md object-cover"
+											layout="fill"
+											src="/assets/images/trainer3.jpeg"
+											alt=""
+										/>
+									</div>
 								</div>
 								<div className="down-content">
-									<span className="text-blue-500 m-10">
+									<span className="text-blue-500 m-10 py-4">
 										Table Tennis Trainer
 									</span>
 									<h5>Tarun Verma</h5>
-									<p>
+									<p className="py-2 text-lg">
 										An accomplished coach in Table Tennis, utilizes innovative
 										training methods to nurture the talents of his students,
 										guiding them towards achieving their full potential on the
