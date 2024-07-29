@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  fitness-website-web:
+    image: fitness_website-fitness-website-web:latest
+    ports: 
+      - "3000:3000"
+    volumes:
+      - .:/fitness-website/app 
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_AITABLE_API_KEY=uskXhQQGsDLGttCff0QuTFI
+      - NEXT_PUBLIC_DATASHEET_SOCIETY=dst44RYhkH89ZnLACE
+      - NEXT_PUBLIC_DATASHEET_COACH=dstnzx0yPUsVFakMtY
+      - NEXT_PUBLIC_DATASHEET_MEMBER=dstjre4vpBDaozhaPp
+      - NEXT_PUBLIC_EMAILJS_SERVICE_ID=service_e77c0hc
+      - NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=template_eip906p
+
+
+#notes
+# volumes of .:./fitness-website is not correct in terms of docker volumes (no dot in front of path)
